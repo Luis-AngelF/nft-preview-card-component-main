@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+    --SoftBlue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+
+    --VeryDarkBlueMain: hsl(217, 54%, 11%);
+    --VeryDarkBlueCard: hsl(216, 50%, 16%);
+    --VeryDarkBlueLine: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    background-color: var(--VeryDarkBlueMain);
+    color: var(--SoftBlue);
+}
+
+.card {
+    max-width: 300px;
+    width: 70%;
+    margin: 10vh auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: var(--VeryDarkBlueCard);
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: var(--White);
+    margin: 20px 0;
+}
+
+.card-description {
+    line-height: 1.5em;
+    font-weight: 300;
+}
+
+.card-details {
+    display: flex;
+    margin: 20px 0;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--VeryDarkBlueLine);
+}
+
+.card-price {
+    display: flex;
+    color: var(--Cyan);
+}
+
+.card-time {
+    display: flex;
+}
+
+.card-price p,
+.card-time p {
+    margin: 0 10px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info p {
+    margin: 0 15px;
+}
+
+.user-info span {
+    color: var(--White);
+}
+
+.image-avatar {
+    width: 35px;
+    border: 1px solid var(--White);
+    border-radius: 50%;
+}
+
+.attribution {
+    text-align: center;
+}
+
+.attribution p {
+    line-height: 1.3em;
+    font-weight: 700;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: var(--White);
+}
